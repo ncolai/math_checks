@@ -1,3 +1,6 @@
+#note: this is a correct implementation of finding debruijn sequences, NOT
+#debruijn.py.
+
 def ringsums(m, n):
     sums = {(i, j):(n*i + m*j)% (m*n) for i in range(m) for j in range(n)}
     return sums

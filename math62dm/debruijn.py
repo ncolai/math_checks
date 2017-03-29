@@ -1,3 +1,4 @@
+#I believe this was a false start; check out debruijn2.py for an accurate implementation.
 def order(start, group):
     temp = start
     nums = [start]
