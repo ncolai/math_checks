@@ -1,5 +1,9 @@
 import math
 import copy
+
+#in short, an implementation of the AKS algorithm developed in 2002.
+#Note that some knowledge of finite fields will help with understanding this.
+
 #I know this already has a function, but re-implementing it to really understandruntime
 #exponentiation can be done quickly by hand with repeated squares.
 def is_power(n, p):
