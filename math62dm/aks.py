@@ -102,6 +102,8 @@ def choose(n):
             cur_index += 1
         return choose_row
 
+#Note that the AKS algorithm consists roughly of 4 steps, and the bounds chosen
+#are somewhat arbitrary (but generally conform to how the proof goes)
 #Step 1: is n a perfect power?
 def step1(n, log_n):
     for j in range(2, int(math.floor(log_n)) + 1):
