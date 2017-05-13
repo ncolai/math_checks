@@ -78,7 +78,7 @@ def order(n, r):
             temp %= r
     return order_ct
 
-#takes in an index n and returns an array of all possible nCr, 0<=r<=n. 
+#takes in an index n and returns an array of all possible nCr, 0<=r<=n.
 def choose(n):
     #use a temp row to minimize space used
     choose_row = [1]
@@ -95,7 +95,7 @@ def choose(n):
                 if i == 0:
                     choose_row[i] = 1
                 elif i == len(choose_row): #append to choose_row
-                    choose_row.append(1) 
+                    choose_row.append(1)
                 else: #use Pascal's Identity if not an end column
                     choose_row[i] = temp_row[i-1] + temp_row[i]
                     choose_row[i] %= n #only working mod n in AKS
@@ -136,7 +136,7 @@ def step3(n, log_n):
                 r = temp
                 break
     return r
-    
+
 #Step 4: Check that all 1 <= a <= r satisfy (x+a)^n = x^n + a mod(n,x^r-1)
 #this step works because you can substitute x^r = 1 into any exponent of x
 #greater than or equal to r to check all coefficients in polynomial time.
@@ -178,4 +178,4 @@ if __name__ == "__main__":
         else:
             is_prime = True
             print("Hooray, %d is prime!" % (n))
-    
+
