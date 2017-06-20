@@ -1,24 +1,24 @@
 aaaaA
 aaabR
-aaaA
+aaa A
 aabaA
 aabbR
-aabR
+aab R
 abaaA
 ababR
-abaA
+aba A
 abbaA
 abbbR
-abbR
+abb R
 baaaR
 baabA
-baaR
+baa R
 babaR
 babbA
-babA
+bab A
 bbaaR
 bbabA
-bbaR
+bba R
 bbbaR
 bbbbA
-bbbA
+bbb A
