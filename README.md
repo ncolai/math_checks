@@ -1,1 +1,1 @@
-This is a collection of different algorithms I wrote to help myself understand some of the concepts in my math classes and when reading textbooks. If any of the programs have an unclear function, feel free to message me!
+This is a collection of different algorithms I wrote to help myself understand some of the concepts in my math classes and when reading textbooks. Of particular note: an implementation of the AKS algorithm (polynomial time prime verifier). If any of the programs have an unclear function, feel free to message me!
