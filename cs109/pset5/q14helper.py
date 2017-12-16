@@ -58,13 +58,15 @@ def draw_samples(dist):
 
 if __name__ == '__main__':
     average = 0
-    abilities = stats.binom(10,0.75)
-    for i in range(100):
+    abilities = stats.norm(8, 1)
+    for i in range(200):
         results = draw_samples(abilities)
         true_dist = loadTrueDistribution()
         true_dist = collections.OrderedDict(sorted(true_dist.items()))
-
-        #plt.bar(true_dist.keys(), true_dist.values(), width = 5)
+        temp = np.append(results, [0])
+        #plt.bar(true_dist.keys(), temp/float(MAX_POINTS), width = 5, color='orange')
+        #plt.xlabel('Exam Scores')
+        #plt.ylabel('Fraction of Students')
         #plt.show()
 
         #calculate maximum likelihood estimator
